@@ -1,0 +1,1064 @@
+@import url(../styles/typography.css);
+@import url(../styles/layout.css);
+@import url(../styles/fonts.css);
+
+
+ .navbar{
+    display: contents !important;
+}
+
+/* #noted(notedNavbar) #css starts  */
+.notedNavbar .logo {
+  max-height: 100px
+}
+
+.notedNavbar .navbar-open-icon {
+  display: inline
+}
+
+.notedNavbar .navbar-close-icon {
+  display: none
+}
+
+.notedNavbar .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+  display: none
+}
+
+.notedNavbar .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+  display: inline
+}
+
+.notedNavbar .navbar-light .navbar-toggler {
+  color: var(--dark);
+  border-color: var(--dark);
+  font-size: 25px;
+}
+.notedNavbar .navbar-light .navbar-nav .nav-link {
+  color: var(--dark);
+}
+.notedNavbar .navbar-light .navbar-nav .nav-link:focus, 
+.notedNavbar .navbar-light .navbar-nav .nav-link:hover {
+      color: var(--primary);
+  }
+/* #noted(notedNavbar) #css ends  */
+
+
+/* #handel(handelHero) #css starts  */
+.handelHero .masthead {
+  padding: 3rem 0 7rem;
+  position: relative;
+  background-color: var(--primary);
+  background-image: linear-gradient(45deg, var(--primary) 0%, var(--tertiary) 100%);
+  background-size: cover;
+  z-index: 0;
+}
+.handelHero  .paragraph{
+  font-size: 18px;
+}
+.handelHero .masthead svg.wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+
+.handelHero .masthead h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.1;
+  z-index: 1;
+}
+
+.handelHero .masthead h2 {
+  color: var(--dark);
+  font-weight: 100 !important;
+  z-index: 1;
+  font-size: 1.2rem;
+}
+
+.handelHero .masthead a {
+  color: var(--white);
+  text-decoration: underline;
+  z-index: 1;
+}
+
+.handelHero .masthead a:hover {
+  color: var(--white);
+}
+
+.handelHero .masthead a:active {
+  text-decoration: none;
+}
+
+.handelHero .masthead .masthead-cards {
+  position: relative;
+  z-index: 1;
+}
+.handelHero .paragraph{
+  color: var(--white);
+}
+.handelHero .masthead .masthead-cards .shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--disabled);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+.handelHero .masthead .masthead-cards .card {
+  opacity: 1;
+  font-size: .8rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  letter-spacing: .05rem;
+  color: #212529;
+  transition: .15s all;
+}
+
+.handelHero .masthead .masthead-cards .card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+}
+
+.handelHero .masthead .masthead-cards .card:active {
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-blue:hover {
+  color: var(--secondary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-green:hover {
+  color: var(--success);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-red:hover {
+  color: var(--alert);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-yellow:hover {
+  color: var(--warning);
+}
+
+.handelHero .masthead-page {
+  padding: 1rem 0 4rem;
+}
+
+.handelHero .border-bottom-yellow {
+  border-color: var(--warning)!important;
+}
+
+.handelHero .border-bottom-red {
+  border-color: var(--alert)!important;
+}
+
+.handelHero .border-bottom-blue {
+  border-color: var(--secondary)!important;
+}
+
+.handelHero .border-bottom-green {
+  border-color: var(--success)!important;
+}
+
+.handelHero .border-bottom-blue, 
+.handelHero .border-bottom-green, 
+.handelHero .border-bottom-red, 
+.handelHero .border-bottom-yellow {
+  border-bottom: .4rem solid!important;
+}
+
+.handelHero .shadow-lg {
+  box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,.15),0 0 1.5rem .5rem rgba(33,37,41,.05)!important;
+}
+
+.handelHero .border-0 {
+  border: 0!important;
+}
+.handelHero .btn {
+  border-radius: 30px;
+  background-color: var(--dark);
+  margin-top: 40px !important;
+  text-decoration: none !important;
+}
+@media(min-width:992px) {
+  .handelHero .masthead-page h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media(min-width:992px) {
+  .handelHero .masthead h1 {
+      font-size: 3rem;
+  }
+  .handelHero .masthead h2 {
+      font-size: 1.5rem;
+  }
+}
+/* #handel(handelHero) #css ends  */
+
+/* #folds(foldsFilter) #css starts  */
+.foldsFilter .btn {
+  font-weight: bold;
+  margin: 11px
+}
+
+.foldsFilter .btn:hover {
+  background-color: var(--primary);
+  color: var(--white)
+}
+
+/* #folds(foldsFilter) #css ends  */
+
+/* #penny(pennyProduct) #css starts  */
+.pennyProduct a,
+.pennyProduct a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pennyProduct .section-products {
+    padding: 40px 0 54px;
+}
+
+.pennyProduct .section-products .header {
+    margin-bottom: 50px;
+}
+
+.pennyProduct .section-products .header h3 {
+    font-size: 1rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.pennyProduct .section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.pennyProduct .section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.pennyProduct .section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.pennyProduct .section-products .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.pennyProduct .section-products .single-product:hover .part-1::before {
+    transform: scale(1.2, 1.2) rotate(5deg);
+}
+
+.pennyProduct .section-products #product-1 .part-1::before {
+    background: url("https://images.moksy.com/templates/default/courses/video-editing.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.pennyProduct .section-products #product-2 .part-1::before {
+    background: url("https://images.moksy.com/templates/default/courses/wireframe.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct .section-products #product-3 .part-1::before {
+    background: url("https://images.moksy.com/templates/default/courses/web-development.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct .section-products #product-4 .part-1::before {
+    background: url("https://images.moksy.com/templates/default/courses/pyton.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.pennyProduct .section-products .single-product .part-1 .discount,
+.pennyProduct .section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 2px 8px;
+    text-transform: capitalize;;
+    font-size: 0.85rem;
+}
+
+.pennyProduct .section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: var(--disabled);
+}
+
+.pennyProduct .section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.pennyProduct .section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.pennyProduct .section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.pennyProduct .section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--white);
+    color: var(--disabled);
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.pennyProduct .section-products .single-product .part-1 ul li a:hover {
+    color: var(--primary);
+}
+
+.pennyProduct .section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.pennyProduct .section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.pennyProduct .section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.pennyProduct .section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--disabled);
+    transform: translateY(-50%);
+}
+
+/* #penny(pennyProduct) #css ends  */
+
+/* #steve(steveSteps) #css starts */
+.steveSteps h5{
+  font-weight: 600;
+}
+.steveSteps .heading{
+ color: var(--secondary)
+}
+.steveSteps .circle{
+  height: 40px; 
+  width: 40px; 
+  background-color: var(--secondary)
+}
+  /* #steve(steveSteps) #css ends */
+
+/* #brexo(brexoBanner) #css starts  */
+#brexoBanner {
+  background: var(--dark);
+  position: relative;
+  height: 100vh;
+}
+
+.brexoBanner .glightbox_video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.brexoBanner .outer_circle {
+  stroke-width: 3;
+  stroke-dasharray: 410;
+  stroke-dashoffset: 0;
+  stroke-linecap: square;
+  transition: all .4s ease-out;
+}
+
+.brexoBanner .glightbox_video:hover .outer_circle {
+  stroke-dashoffset: 410;
+  transition: stroke .7s .4s ease-out, stroke-dashoffset .4s ease-out
+}
+
+.brexoBanner .glightbox_video:hover .inner-circle {
+  fill: var(--primary);
+  transition: fill .4s .3s ease-out;
+
+}
+
+.brexoBanner .glightbox_video:hover .play {
+  fill: var(--white);
+  transition: fill .4s .3s ease-out;
+}
+
+/* #brexo(brexoBanner) #css ends  */
+
+/* #proxy(proxyPortfolio) #css starts  */
+.proxyPortfolio .project {
+  margin: 15px 0;
+}
+
+.proxyPortfolio .no-gutter .project {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.proxyPortfolio .has-spacer {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.proxyPortfolio .has-spacer-extra-space {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.proxyPortfolio .has-side-spacer {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.proxyPortfolio .project-title {
+  font-size: 1.25rem;
+}
+
+.proxyPortfolio .project-skill {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+}
+
+.proxyPortfolio .project-info-box {
+  margin: 15px 0;
+  background-color: var(--white);
+  padding: 30px 40px;
+  border-radius: 5px;
+}
+
+.proxyPortfolio .project-info-box p {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--disabled);
+}
+
+.proxyPortfolio .project-info-box p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/*--- default effect ---*/
+.proxyPortfolio .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.proxyPortfolio .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border-radius: 5px;
+}
+
+.proxyPortfolio .primary-dark .hovereffect .overlay {
+  background-color: rgba(215, 48, 39, 0.95);
+}
+
+.proxyPortfolio .white .hovereffect .overlay {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.proxyPortfolio .dark-overlay .hovereffect .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.proxyPortfolio .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  border: 10px solid var(--white);
+  border-radius: 5px;
+}
+
+.proxyPortfolio .no-image-border .hovereffect img {
+  border: none;
+  border-radius: 5px;
+}
+
+.proxyPortfolio .no-image-border.no-gutter .hovereffect img,
+.proxyPortfolio .no-image-border.no-gutter .hovereffect .overlay {
+  border: none;
+  border-radius: 0;
+}
+
+.proxyPortfolio .hovereffect:hover img {
+  -webkit-transform: rotate(-7deg) scale(1.33);
+  -ms-transform: rotate(-7deg) scale(1.33);
+  transform: rotate(-7deg) scale(1.33);
+}
+
+.proxyPortfolio .hovereffect-title .project-title-wrapper {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  margin-top: -32px;
+  width: 100%;
+  padding: 10px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.proxyPortfolio .project:hover .hovereffect-title .project-title-wrapper {
+  top: 50%;
+}
+
+.proxyPortfolio .hovereffect-title .project-title {
+  color: var(--white);
+  background: transparent;
+  margin-bottom: 5px;
+}
+
+.proxyPortfolio .white .hovereffect-title .project-title {
+  color: var(--dark);
+}
+
+.proxyPortfolio .hovereffect-title p {
+  color: var(--white);
+  background: transparent;
+  font-size: 12px;
+  margin: 0;
+}
+
+.proxyPortfolio .white .hovereffect-title p {
+  color: var(--disabled);
+}
+
+.proxyPortfolio .hovereffect-title .hover-icons {
+  font-size: 16px;
+  background: transparent;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.proxyPortfolio .project:hover .hovereffect-title .hover-icons {
+  bottom: 15%;
+}
+
+.proxyPortfolio .hovereffect-title .hover-icons a {
+  color: var(--white);
+}
+
+.proxyPortfolio .white .hovereffect-title .hover-icons a {
+  color: var(--dark);
+}
+
+.proxyPortfolio .hovereffect-title.project-icons {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.proxyPortfolio .project:hover .hovereffect-title.project-icons {
+  bottom: 0;
+}
+
+.proxyPortfolio .hovereffect-title.project-icons a {
+  display: inline-block;
+  position: relative;
+  color: var(--white);
+  font-size: 11px;
+  line-height: 40px;
+  width: 45px;
+  height: 38px;
+  background: var(--disabled);
+  opacity: 0.75;
+}
+
+.proxyPortfolio .hovereffect-title.project-icons a i {
+  margin-right: -2px;
+}
+
+.proxyPortfolio .hovereffect-title.project-icons a:first-child {
+  background-color: var(--disabled);
+  margin-right: -4px;
+}
+
+.proxyPortfolio .project-icons a:hover,
+.proxyPortfolio .project-icons a:first-child:hover {
+  background-color: var(--disabled) !important;
+  opacity: 1;
+}
+
+.proxyPortfolio .hovereffect-title.project-icons .hover-icons {
+  color: var(--white);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  opacity: 1;
+}
+
+.proxyPortfolio .hovereffect-title.project-icons a:hover {
+  background: var(--alert);
+}
+
+.proxyPortfolio .primary-dark .project-icons a {
+  color: var(--alert);
+  background-color: var(--white);
+}
+
+.proxyPortfolio .primary-dark .project-icons a:hover {
+  background-color: var(--white);
+}
+
+.proxyPortfolio .primary-dark .project-icons a:hover {
+  color: var(--white);
+}
+
+.proxyPortfolio .primary-dark .hovereffect-title.project-icons .hover-icons {
+  color: var(--alert);
+}
+
+.proxyPortfolio .white .hovereffect-title .hover-icons {
+  color: var(--dark);
+}
+
+.proxyPortfolio .white .hovereffect-title.project-icons .hover-icons {
+  color: var(--dark);
+}
+
+.proxyPortfolio .hovereffect-title .hover-icons a {
+  opacity: 0.7;
+  margin: 0 4px;
+}
+
+.proxyPortfolio .hovereffect-title .hover-icons a {
+  opacity: 0.7;
+}
+
+.proxyPortfolio .hovereffect-title .hover-icons a:hover {
+  opacity: 1;
+}
+
+.proxyPortfolio .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.proxyPortfolio .boxed-portfolio .card {
+  background-color: var(--white);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.proxyPortfolio .boxed-portfolio .hovereffect img,
+.proxyPortfolio .boxed-portfolio .hovereffect .overlay {
+  border: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.proxyPortfolio .boxed-portfolio .card-body {
+  padding: 25px 30px;
+  border-top: 1px solid var(--white);
+}
+
+.proxyPortfolio .font-size-16,
+.proxyPortfolio .fs-16 {
+  font-size: 16px !important;
+}
+
+.proxyPortfolio .font-weight-700,
+.proxyPortfolio .fw-bold,
+.proxyPortfolio .fw-500 {
+  font-weight: 700 !important;
+}
+
+.proxyPortfolio .card-title {
+  margin-bottom: 0;
+}
+
+.proxyPortfolio .title-link,
+.proxyPortfolio .title-link:focus {
+  color: var(--dark);
+}
+
+.proxyPortfolio .boxed-portfolio .card {
+  background-color: var(--white);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.proxyPortfolio .mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.proxyPortfolio .card {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.proxyPortfolio .mt-5 {
+  margin-top: 5px !important;
+}
+
+.proxyPortfolio .mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.proxyPortfolio p {
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--disabled);
+  letter-spacing: 0.03rem;
+  margin-bottom: 10px;
+}
+
+/* #proxy(proxyPortfolio) #css ends  */
+
+/* #spira(spiraSubscribe) #css starts  */
+.spiraSubscribe .subscription.bg-white {
+  background: none
+}
+
+.spiraSubscribe .bg-white {
+  background-color: var(--white)
+}
+
+.spiraSubscribe .subscription.bg-white .subscription-wrapper {
+  background: var(--white)
+}
+
+.spiraSubscribe .subscription-wrapper {
+  border-radius: 0% 5% 10% 3%/10% 20% 0% 17%;
+  -webkit-transform: perspective(1800px) rotateY(20deg) skewY(1deg) translateX(50px);
+  transform: perspective(1800px) rotateY(20deg) skewY(1deg) translateX(50px);
+  padding: 70px 50px;
+  z-index: 1;
+  width: 100%;
+  background: linear-gradient(80deg, var(--primary) 0%, var(--tertiary) 100%);
+  top: 100px
+}
+
+.spiraSubscribe .subscription-wrapper {
+  box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1)
+}
+
+.spiraSubscribe .subscription-content {
+  -webkit-transform: skewY(-1deg);
+  transform: skewY(-1deg)
+}
+
+.spiraSubscribe h3,
+.spiraSubscribe .h3 {
+  font-size: 30px
+}
+
+.spiraSubscribe .flex-fill {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto
+}
+
+.spiraSubscribe .subscription.bg-white .form-control {
+  border: 1px solid var(--disabled)
+}
+
+.spiraSubscribe .subscription-wrapper .form-control {
+  height: 60px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 45px
+}
+
+.spiraSubscribe .subscription-wrapper .form-control:focus {
+  background: rgba(255, 255, 255, 0.1);
+  outline: 0;
+  box-shadow: none
+}
+
+.spiraSubscribe .btn:not(:disabled):not(.disabled) {
+  cursor: pointer
+}
+
+.spiraSubscribe .btn-primary {
+  border: 0;
+  color: var(--white)
+}
+
+.spiraSubscribe .btn {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 18px 45px;
+  border-radius: 45px;
+  font-weight: 500;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: .3s ease-in;
+  overflow: hidden
+}
+
+.spiraSubscribe .btn-primary:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 102%;
+  height: 100%;
+  background: linear-gradient(45deg, var(--primary) 0%, var(--tertiary) 100%);
+  z-index: -1;
+  transition: ease 0.3s
+}
+
+/* #spira(spiraSubscribe) #css ends  */
+
+/* #dreza(drezaDownload) #css starts  */
+
+.drezaDownload h2 {
+  font-size: 40px;
+  line-height: 1.5
+}
+
+.drezaDownload .stroke {
+  background-color: var(--primary);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+  border: 2px solid var(--primary);
+  font-style: italic;
+  color: var(--white);
+}
+
+.drezaDownload .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.drezaDownload img {
+  height: 70px
+}
+
+@media only screen and (max-width: 576px) {
+  .drezaDownload .container .row .col-md-4 img {
+      margin-top: 20px;
+  }
+}
+
+/* #dreza(drezaDownload) #css ends  */
+
+
+/* #fiddle(fiddleFaq) #css starts  */
+.fiddleFaq .faq {
+  padding: 120px 0 90px;
+  background: var(--white);
+  min-height: 100vh;
+}
+
+.fiddleFaq .faq .section-title {
+  margin-bottom: 54px;
+}
+
+.fiddleFaq .faq .section-title h2 {
+  margin-bottom: 22px;
+}
+
+.fiddleFaq .faq .accordion .card {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.fiddleFaq .faq .accordion .card:not(:first-of-type) .card-header:first-child {
+  border-radius: 10px;
+}
+
+.fiddleFaq .faq .accordion .card .card-header {
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 {
+  padding: 0;
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button {
+  color: var(--tertiary);
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 30px 0 70px;
+  height: 80px;
+  display: block;
+  width: 100%;
+  color: rgba(30, 48, 86, 0.8);
+  text-align: left;
+  background: var(--white);
+  -webkit-box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
+  box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button:after {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  margin-top: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  color: var(--alert);
+  text-align: center;
+  border: 1px solid var(--alert);
+  border-radius: 50%;
+  line-height: 100%;
+  content: '\f067';
+  font-size: 10px;
+  line-height: 18px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button.collapsed {
+  background: var(--white);
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid rgba(97, 125, 255, 0.2);
+}
+
+.fiddleFaq .faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
+  content: '\f068';
+  color: var(--white);
+  background-image: -webkit-linear-gradient(-180deg, var(--primary) 0%, var(--secondary) 30%, var(--tertiary) 100%);
+}
+
+.fiddleFaq .faq .accordion .card .card-body {
+  -webkit-box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
+  box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
+  border-radius: 0 0 10px 10px;
+  padding-top: 0;
+  margin-top: -6px;
+  padding-left: 72px;
+  padding-right: 70px;
+  padding-bottom: 23px;
+  color: rgba(30, 48, 86, 0.8);
+  line-height: 30px;
+}
+/* #fiddle(fiddleFaq) #css ends  */
+
+/* #craig(craigCTA) #css starts  */
+.craigCTA .fdb-block {
+  padding: 7.5rem 0
+}
+
+.craigCTA .fdb-block.fdb-viewport .container {
+  min-height: calc(100% - 2 * 7.5rem)
+}
+
+.craigCTA .bg {
+  background-color: var(--dark);
+}
+
+.craigCTA .btnone {
+  color: var(--dark);
+  background-color:var(--white);
+  border-color: var(--white);
+}
+
+.craigCTA  h2 {
+  color: var(--white);
+  font-size: 30px;
+}
+
+.craigCTA .lead {
+  color: var(--white);
+}
+
+.craigCTA .btntwo {
+  color: var(--white);
+  border-color: var(--dark);
+  background-color: var(--dark);
+}
+
+.craigCTA .btntwo:hover {
+  color: var(--white);
+  border-color: var(--dark);
+  background-color: var(--dark);
+}
+
+.craigCTA .fdb-block.fdb-viewport.bg-dark {
+  padding: 50px;
+}
+
+/* #craig(craigCTA) #css ends  */
+
+
+/* #foils(foilsFooter) #css starts */
+.foilsFooter .logo{
+  max-width:80px
+}
+.foilsFooter h5{
+  font-weight: 600;
+}
+.foilsFooter .icons{
+  font-size: 20px;
+  color: var(--dark);
+}
+/* #foils(foilsFooter) #css ends */
+

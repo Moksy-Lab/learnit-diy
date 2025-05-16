@@ -1,0 +1,66 @@
+✔ Basic Project Info
+
+Project Name: LearnIt
+
+⸻
+
+✔ Purpose:
+
+Empower self-driven learners to master digital marketing through a DIY learning platform. LearnIt provides structured paths, interactive tools, templates, and real-world projects—letting users learn at their own pace, in their own way.
+
+⸻
+
+✔ Training Type:
+
+Self-Paced DIY Learning (Toolkits + Practice Projects)
+
+⸻
+
+✔ Category:
+
+Edtech
+
+⸻
+
+✔ Sub-category:
+
+Self-Guided Digital Marketing Education
+
+⸻
+
+✔ Inspiration:
+
+Notion Academy, Canva Learn, Codecademy, Growth Design, DigitalMarketer Lab
+
+⸻
+
+✔ Target Audience:
+
+🔹 Independent Learners
+🔹 DIY Entrepreneurs and Startup Founders
+🔹 Creators and Influencers
+🔹 Students Building Marketing Portfolios
+🔹 Professionals Seeking Flexible Learning Paths
+
+⸻
+
+✔ Design & Style:
+
+Visual Style: Modular and hands-on. Tool-heavy interface with editable templates, checklists, progress tracking widgets, and workspace-style navigation. Clean sans-serif typography, pastel backgrounds with actionable callouts. Learners are guided but never locked in—freedom with structure.
+
+⸻
+
+✔ Keywords:
+
+🔹 DIY Digital Marketing
+🔹 Learn-by-Doing
+🔹 Customisable Learning Paths
+🔹 Marketing Templates
+🔹 Project-Based Learning
+🔹 Self-Guided Growth
+
+⸻
+
+✔ Showcase:
+
+LearnIt is for makers, doers, and thinkers. Users pick a goal—like launching an ad, building a funnel, or creating a content plan—and get everything they need to do it themselves: lessons, tools, examples, and checklists. It’s not about passing a course—it’s about building real marketing skills by doing the real work, step by step.

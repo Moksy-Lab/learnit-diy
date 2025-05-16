@@ -1,0 +1,66 @@
+DIY – Self-guided learning where individuals explore a topic independently.
+1. Navbar
+Simple top navigation with logo, anchor links (Projects, Tutorials, Tools), and a CTA like “Start Your DIY Journey”.
+
+2. Hero Section
+Inspiring headline (e.g., “Build, Create, and Learn at Your Own Pace”) with a CTA button (“Browse Projects” or “Start Learning”).
+
+3. What is DIY Learning?
+Brief explanation of what DIY learning means, highlighting independence, creativity, and self-paced exploration.
+
+4. Popular DIY Projects
+Grid or carousel showcasing top DIY projects/tutorials with images, titles, and short descriptions.
+
+5. Choose Your Skill Level
+Categories like Beginner / Intermediate / Advanced to help users pick the right starting point.
+
+6. Step-by-Step Guides
+Highlight the availability of easy-to-follow tutorials, checklists, and printable instructions.
+
+7. Video Tutorials Section
+Promote hands-on video lessons demonstrating how to complete DIY projects.
+
+8. Toolkits & Resources
+Suggest tools, templates, starter kits, or downloadable resources users might need.
+
+9. Success Stories / DIY Showcases
+Feature projects completed by real users with photos and testimonials to inspire new users.
+
+10. Why Learn DIY Skills?
+List benefits like creativity, problem-solving, self-confidence, and practical skill development.
+
+11. Self-Paced Learning Benefits
+Highlight how users can learn anytime, anywhere, without deadlines or pressure.
+
+12. Community Section
+Invite users to join a forum, Facebook group, or Discord server to share their DIY creations and ask for advice.
+
+13. Top Categories / Interests
+Categories like Home Decor, Tech Gadgets, Woodworking, Fashion, Gardening, etc.
+
+14. Get Certified (Optional)
+Offer digital badges or certificates for completing certain DIY learning paths or challenges.
+
+15. Start a Challenge
+Introduce fun DIY challenges (e.g., "30 Projects in 30 Days") to engage users.
+
+16. Free vs Premium Projects
+Explain which projects are free and which are paid (if you have both).
+
+17. Newsletter Signup
+Prompt to subscribe for weekly DIY ideas, tips, and new tutorials.
+
+18. Mobile App Promotion (Optional)
+If available, promote a mobile app for easier DIY learning on the go.
+
+19. FAQs
+Answer common questions about accessing tutorials, tool recommendations, skill levels, and project difficulty.
+
+20. Final CTA Section
+Motivational call to action (e.g., “Ready to Build Something Amazing? Start Now!”) with a button linking to the projects page.
+
+21. Contact Section
+Email address or contact form for inquiries, support, or partnerships.
+
+22. Footer
+Logo, navigation links, social media icons, newsletter signup, legal (Privacy Policy, Terms).
